@@ -28,7 +28,6 @@ Developed a simulation tool to estimate promotional impact.
 ## 📁 Project Structure
 - powerbi/
 - notebooks/
-- sql/
 - images/
 
 ## 🔗 Author
