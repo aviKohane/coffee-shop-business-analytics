@@ -34,6 +34,25 @@ The objective was to generate actionable insights to support operational and bus
 
 ---
 
+## 🔬 Data Validation (Python)
+
+Before building the BI model, data validation was performed using Python (Pandas) to ensure data quality and consistency.
+
+### ✔ Validations performed:
+- Missing values analysis  
+- Duplicate detection  
+- Time coverage validation  
+- Hourly granularity validation  
+- Revenue consistency checks  
+- Weather data integrity checks  
+
+### 📂 Notebooks:
+- notebooks/01_bi_project_transactions_exploration.ipynb
+- notebooks/02_bi_project_calendar_exploration
+- notebooks/03_bi_project_weather_exploration
+
+---
+
 ## 📊 Key Insights
 - ☀️ **Morning peak hours** generate the highest revenue  
 - 🌧️ **Rainy days reduce transactions by up to 50%** in some locations  
