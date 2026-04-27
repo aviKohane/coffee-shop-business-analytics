@@ -52,13 +52,18 @@ The objective was to generate actionable insights to support operational and bus
 ## 📸 Dashboard Preview
 
 ### Overview Dashboard
-![Overview](images/dashboard_overview.png)
+![Overview](images/executive_manager_dashboard.png)
 
-### Weather Impact Analysis
-![Weather](images/weather_impact.png)
+### Weather & Holidays Impact Analysis
+![Weather](images/weather_and_holidays_impact_dashboard.png)
 
-### Time-Based Analysis
-![Time](images/time_analysis.png)
+### ☀️ Hell's Kitchen – No Holiday / Clear Day
+![Hell's Kitchen Clear Day](images/No_holiday_and_clear_day_in_hells_kitchen.png)
+
+### 🌧️ Hell's Kitchen – No Holiday / Rainy Day
+![Hell's Kitchen Rainy Day](images/No_holiday_and_rainy_day_in_hells_kitchen.png)
+
+This comparison highlights how weather conditions affect customer behavior in the same location and under the same holiday context.
 
 ---
 
