@@ -76,7 +76,7 @@ This transformation allowed a much clearer evaluation of weather impact:
 ➡️ Supports staffing and inventory optimization  
 
 📸 Example:
-![Time Analysis](images/executive_manager_dashboard.png)
+![Time Analysis](/images/executive_manager_dashboard.png)
 
 ---
 
@@ -87,7 +87,7 @@ This transformation allowed a much clearer evaluation of weather impact:
 ➡️ Opportunity for **cross-selling strategies** (coffee + pastry)
 
 📸 Example:
-![Product Segmentation](images/product_sales_segmentation.png)
+![Product Segmentation](/images/product_sales_segmentation.png)
 
 ---
 
@@ -107,10 +107,10 @@ Using the dominant weather feature, we compared similar business conditions:
 ➡️ **~50% drop in customer activity**
 
 📸 Clear Day:
-![Clear Day](images/No_holiday_and_clear_day_in_hells_kitchen.png)
+![Clear Day](/images/No_holiday_and_clear_day_in_hells_kitchen.png)
 
 📸 Rainy Day:
-![Rainy Day](images/No_holiday_and_rainy_day_in_hells_kitchen.png)
+![Rainy Day](/images/No_holiday_and_rainy_day_in_hells_kitchen.png)
 
 ➡️ This demonstrates the **direct operational impact of weather**
 
@@ -137,7 +137,7 @@ Evaluate whether targeted promotions can compensate for reduced demand during un
 - Revenue Increase: **~6%**
 
 📸 Example:
-![Simulation](images/![Simulation](images/business_simulator_dashboard.png)
+![Simulation](images/![Simulation](/images/business_simulator_dashboard.png)
 
 ### 💡 Insight
 Targeted promotions during low-demand periods can significantly mitigate revenue loss and improve overall performance.
