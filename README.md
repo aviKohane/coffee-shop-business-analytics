@@ -1,9 +1,9 @@
 # ☕ Coffee Shop Business Analytics
 
 ## 📌 Overview
-End-to-end Business Intelligence project analyzing coffee shop performance by combining transactional, calendar, and weather data at an hourly granularity.
+End-to-end Business Intelligence project analyzing coffee shop performance in New York by combining transactional, calendar, and weather data at an hourly granularity.
 
-The objective was to generate actionable insights to support operational and business decision-making.
+The objective was to generate actionable insights and move from descriptive analysis to **data-driven decision-making**.
 
 ---
 
@@ -22,6 +22,22 @@ The objective was to generate actionable insights to support operational and bus
   - Weather (temperature, conditions, precipitation)
 
 📌 Data unified using a custom **DateTimeKey** at hourly level.
+
+---
+
+## 🧩 Advanced Data Modeling
+
+### 🌦️ Daily Dominant Weather Feature
+Weather data was originally recorded at an **hourly level**, making business interpretation difficult.
+
+To address this, a derived table was created to identify the **dominant weather condition per day (5 AM – 9 PM)**.
+
+This transformation:
+- Reduces noise from hourly fluctuations  
+- Enables consistent day-level comparison  
+- Improves business interpretability  
+
+➡️ This feature was key to accurately measure the real impact of weather on sales.
 
 ---
 
@@ -47,7 +63,6 @@ Before building the BI model, data validation was performed using Python (Pandas
 - Weather data integrity checks  
 
 ### 📂 Notebooks:
-
 - [Transactions Exploration](notebooks/01_bi_project_transactions_exploration.ipynb)  
 - [Calendar Exploration](notebooks/02_bi_project_calendar_exploration.ipynb)  
 - [Weather Exploration](notebooks/03_bi_project_weather_exploration.ipynb)
@@ -55,21 +70,44 @@ Before building the BI model, data validation was performed using Python (Pandas
 ---
 
 ## 📊 Key Insights
-- ☀️ **Morning peak hours** generate the highest revenue  
-- 🌧️ **Rainy days reduce transactions by up to 50%** in some locations  
-- ☕ **Hot beverages account for ~77% of total sales**  
-- 📍 Performance varies significantly by location (business vs tourist areas)
+- ☀️ **Morning peak (7–11 AM)** drives the majority of revenue → critical for staffing optimization  
+- 🌧️ **Rainy days reduce transactions by up to 50%** → major risk for revenue stability  
+- ☕ **Hot beverages account for ~77% of total sales** → strong opportunity for cross-selling  
+- 📍 Performance varies significantly by location → location-based strategy required  
 
 ---
 
 ## 💡 Business Impact
 - Identified optimal hours for staffing and inventory planning  
-- Suggested targeted promotions during low-demand periods (e.g., rainy days)  
-- Built a **simulation approach** to estimate potential revenue uplift  
+- Highlighted weather as a key external driver of demand  
+- Suggested targeted promotions during low-demand periods  
+- Built a **simulation model** to estimate potential revenue uplift  
+
+---
+
+## 🎮 Business Simulation
+
+To move beyond descriptive analytics, a simulation model was built to test the impact of targeted promotions.
+
+### 🧪 Scenario Tested
+- Coffee + Bakery bundle  
+- Bakery discount: **50%**  
+- Customer adoption rate: **25%**  
+- Context: **Rainy days & Weekends (low-demand periods)**  
+
+### 📊 Results
+- Current Revenue: **28.7K**  
+- Revenue with Promotion: **30.4K**  
+- Incremental Revenue: **+1.7K**  
+- Revenue Increase: **~6%**  
+
+➡️ This demonstrates how targeted promotions can mitigate demand drops and improve overall performance.
 
 ---
 
 ## 📸 Dashboard Preview
+
+Interactive dashboards were built to explore performance across time, location, weather, and product categories.
 
 ### Overview Dashboard
 ![Overview](images/executive_manager_dashboard.png)
@@ -77,22 +115,22 @@ Before building the BI model, data validation was performed using Python (Pandas
 ### Weather & Holidays Impact Analysis
 ![Weather](images/weather_and_holidays_impact_dashboard.png)
 
-### ☀️ Hell's Kitchen – No Holiday / Clear Day
-![Hell's Kitchen Clear Day](images/No_holiday_and_clear_day_in_hells_kitchen.png)
+### ☀️ Hell's Kitchen – Clear Day
+![Clear Day](images/No_holiday_and_clear_day_in_hells_kitchen.png)
 
-### 🌧️ Hell's Kitchen – No Holiday / Rainy Day
-![Hell's Kitchen Rainy Day](images/No_holiday_and_rainy_day_in_hells_kitchen.png)
+### 🌧️ Hell's Kitchen – Rainy Day
+![Rainy Day](images/No_holiday_and_rainy_day_in_hells_kitchen.png)
 
-This comparison highlights how weather conditions affect customer behavior in the same location and under the same holiday context.
+➡️ This comparison highlights how identical business conditions can lead to significantly different outcomes due to weather.
 
 ---
 
 ## 📁 Project Structure
-- powerbi/ → Power BI dashboard (.pbix)
-- notebooks/ → Python analysis
-- images/ → Dashboard screenshots
+- powerbi/ → Power BI dashboard (.pbix)  
+- notebooks/ → Python analysis  
+- images/ → Dashboard screenshots  
 - docs/ → Project documentation
-
+- data/ → Raw datasets used for analysis (transactions, weather, calendar)
 ---
 
 ## 🔗 Author
