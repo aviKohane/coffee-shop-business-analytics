@@ -49,9 +49,9 @@ Before building the BI model, data validation was performed using Python (Pandas
 ### 📂 Notebooks:
 ### 📂 Notebooks:
 
-- [Transactions Exploration](notebooks/01_bi_project_transactions_exploration (1).ipynb)  
-- [Calendar Exploration](notebooks/02_bi_project_calendar_exploration (1).ipynb)  
-- [Weather Exploration](notebooks/03_bi_project_weather_exploration (1).ipynb)
+- [Transactions Exploration](notebooks/01_bi_project_transactions_exploration.ipynb)  
+- [Calendar Exploration](notebooks/02_bi_project_calendar_exploration.ipynb)  
+- [Weather Exploration](notebooks/03_bi_project_weather_exploration.ipynb)
 
 ---
 
