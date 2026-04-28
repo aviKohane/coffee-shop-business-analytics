@@ -47,7 +47,6 @@ Before building the BI model, data validation was performed using Python (Pandas
 - Weather data integrity checks  
 
 ### 📂 Notebooks:
-### 📂 Notebooks:
 
 - [Transactions Exploration](notebooks/01_bi_project_transactions_exploration.ipynb)  
 - [Calendar Exploration](notebooks/02_bi_project_calendar_exploration.ipynb)  
